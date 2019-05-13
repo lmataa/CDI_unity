@@ -6,11 +6,12 @@ public class Orbits : MonoBehaviour
 {
 	public Transform target;
 	public GameObject nucleo;
-	public Rigidbody rb;
+	//public Rigidbody rb;
 
 	public int angularv = 90;
     public float thrust;
 
+    public float radius;
 
     // Start is called before the first frame update
     void Start()
@@ -27,7 +28,7 @@ public class Orbits : MonoBehaviour
 
     void FixedUpdate()
     {
-        rb.AddForce(transform.forward * thrust);
+      //  rb.AddForce(transform.forward * thrust);
     }
 
     void SetTarget(Transform t)
