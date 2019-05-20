@@ -3,7 +3,13 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Carbon
+  - Chlorine
+  - Hydrogen
+  - Nitrogen
+  - Sodium
+  - Oxygen
   layers:
   - Default
   - TransparentFX
